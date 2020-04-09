@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
 
 }
-
+/* estilo menu*/
 ul, ol {
     list-style:none;
 }
@@ -42,20 +42,6 @@ ul, ol {
 }
 
 
-h1{
-   color:white; 
-   font: bold 33px verdana, sans-serif, color white; 
-}
-p{
-    color : yellow;
-    font-size: 25px;
-    text-align: justify;
-}
-
- 
-header, section, footer, aside, nav, article, figure, figcaption,  hgroup{
-       display: block; } 
-
 #menu {   
     background: #ffffff;   
     padding: 5px 15px;
@@ -77,6 +63,19 @@ header, section, footer, aside, nav, article, figure, figcaption,  hgroup{
         width: 100%;
         height: auto;
 }
+h1{
+    color:white; 
+    font: bold 33px verdana, sans-serif, color white; 
+ }
+ p{
+     color : yellow;
+     font-size: 25px;
+     text-align: justify;
+ }
+ 
+  
+header, section, footer, aside, nav, article, figure, figcaption,  hgroup{
+        display: block; } 
  
 #seccion {   
     float: left; 
@@ -123,7 +122,12 @@ header, section, footer, aside, nav, article, figure, figcaption,  hgroup{
 }
 
 #lecturas{
-    width: 60%;   
-    margin: 20%; 
+    width: 50%;   
     height: 700px;
+    margin: 25%;
+    
+}
+
+#visitas{
+    text-align: right;
 }
